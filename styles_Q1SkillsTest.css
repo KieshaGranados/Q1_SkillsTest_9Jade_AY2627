@@ -1,0 +1,118 @@
+:root {
+    --blue: #61b0ed;
+    --black-d-1: #000000;
+    --light: #f5f5f5;
+    --grey: #aaa;
+    --white: #fff;
+    --black: rgb(36, 36, 36);
+    --shadow: 8px 3px 30px rgba(0,0,0,.05);
+    }   
+
+body {
+    background: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background: var(--white);
+    padding: 2rem;
+    max-width: 576px;
+    width: 100%;
+    border-radius: .75rem;
+    box-shadow: var(--shadow);
+    text-align: left;
+}
+
+.wrapper img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px; height: 150px;
+    margin-bottom: 1rem;
+}
+
+.wrapper h1 {
+    text-align: center;
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+
+.wrapper h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.Name {
+    text-align: left;
+    width: 100%;
+    background: var(--light);
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: 1rem;
+}
+
+.Gmail {
+    text-align: left;
+    width: 100%;
+    background: var(--light);
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: 1.5rem;
+}
+
+.Gradelvl-group {
+    text-align: left;
+    width: 103%;
+    background: var(--light);
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: 1.5rem; 
+}
+
+textarea {
+    width: 97%;
+    background: var(--light);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-bottom: .5rem;
+}
+
+.btn-group {
+    display: flex;
+    grid-gap: .5rem;
+    align-items: center;
+}
+.btn-group .btn {
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .875rem;
+    font-weight: 500;
+}
+.btn-group .btn.submit {
+    background: var(--black);
+    color: var(--white);
+}
+.btn-group .btn.submit:hover {
+    background: var(--black-d-1);
+}
